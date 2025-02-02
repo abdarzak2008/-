@@ -1,0 +1,55 @@
+
+<!DOCtype html>
+<html>
+<style>
+  html {
+    background-color: #500;
+  }
+  
+  h1 {
+    color: #eef;
+    display: inline-block;
+    font-size: 5vw;
+    left: 40.5%;
+    position: absolute;
+    top: 40.5%;
+    transform: translate(-40%, -40%);
+  }
+  
+  .abdarzak>* {
+    animation: turn 10s ease-in;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 3vw;
+    text-shadow: 0 0 0.5rem #def;
+    text-transform: uppercase;
+    transform: scaleY(4);
+  }
+  
+  @keyframes turn {
+    0% {
+      text-shadow: 0 0 0 #def;
+      transform: scaleY(4) rotateY(90deg);
+    }
+    100% {
+      text-shadow: 0 0 0.5rem #def;
+      transform: scaleY(4) rotateY(0);
+    }
+  }
+</style>
+
+<body>
+  <h1 class="abdarzak">
+    <span>A</span>
+    <span>B</span>
+    <span>D</span>
+    <span>A</span>
+    <span>R</span>
+    <span>Z</span>
+  		 <span>A</span>
+  		 <span>K</span>
+  </h1>
+</body>
+
+</html>
